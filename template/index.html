@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Upload and Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js"></script>
+
+
+</head>
+<body>
+    <div class="background">
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+    </div>
+
+    <div class="container">
+        <h1>Prediction</h1>
+        <form id="upload-form" enctype="multipart/form-data">
+            <input type="file" id="image-input" accept="image/*" onchange="displaySelectedImage(this)">
+            <br>
+            <br>
+            <br>
+            <button id="upload-button" type="button" onclick="predictImage()">Predict</button>
+        </form>
+        <div id="prediction-result"></div>
+        <img id="uploaded-image" src="" alt="Uploaded Image">
+    </div>
+
+   
+</body>
+</html>
