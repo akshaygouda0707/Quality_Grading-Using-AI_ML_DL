@@ -31,3 +31,6 @@ Usally plates are classified into 3 grades i.e class a,class b,class c.
 
 final outcome:
 When we Give image in the website It will going to classify that plates will belong to which category either A ,B,C
+
+
+contact me for dataset:https://www.linkedin.com/in/akshay-g-gouda-1bb424202
